@@ -58,13 +58,13 @@ export default function RealWebhookCapture() {
           'connection': 'keep-alive',
           'content-length': '14',
           'content-type': 'text/plain',
-          'host': 'localhost:3001',
+          'host': 'webhook.eu-contentstackapps.com',
           'postman-token': Math.random().toString(36).substr(2, 16),
           'user-agent': 'PostmanRuntime/7.45.0',
           'x-forwarded-for': '::1',
-          'x-forwarded-host': 'localhost:3001',
-          'x-forwarded-port': '3001',
-          'x-forwarded-proto': 'http'
+          'x-forwarded-host': 'webhook.eu-contentstackapps.com',
+          'x-forwarded-port': '443',
+          'x-forwarded-proto': 'https'
         },
         body: 'working baby' as const,
         status: 200 as const
@@ -77,12 +77,12 @@ export default function RealWebhookCapture() {
           'connection': 'keep-alive',
           'content-length': '213',
           'content-type': 'application/json',
-          'host': 'localhost:3001',
+          'host': 'webhook.eu-contentstackapps.com',
           'user-agent': 'Test-Script/1.0',
           'x-forwarded-for': '::1',
-          'x-forwarded-host': 'localhost:3001',
-          'x-forwarded-port': '3001',
-          'x-forwarded-proto': 'http',
+          'x-forwarded-host': 'webhook.eu-contentstackapps.com',
+          'x-forwarded-port': '443',
+          'x-forwarded-proto': 'https',
           'postman-token': Math.random().toString(36).substr(2, 16)
         },
         body: {

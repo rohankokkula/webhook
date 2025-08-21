@@ -31,13 +31,13 @@ A Next.js application with webhook functionality that you can test with Postman 
    npm run dev
    ```
 
-2. Open [http://localhost:3000](http://localhost:3000) in your browser
+2. Open [https://webhook.eu-contentstackapps.com](https://webhook.eu-contentstackapps.com) in your browser
 
 ## Webhook Testing
 
 ### Endpoint Details
 
-- **URL**: `http://localhost:3000/api/webhook`
+- **URL**: `https://webhook.eu-contentstackapps.com/api/webhook`
 - **Method**: `POST`
 - **Content-Type**: `application/json`
 
@@ -45,7 +45,7 @@ A Next.js application with webhook functionality that you can test with Postman 
 
 1. **Create a new request in Postman**
    - Method: `POST`
-   - URL: `http://localhost:3000/api/webhook`
+   - URL: `https://webhook.eu-contentstackapps.com/api/webhook`
 
 2. **Set Headers**
    - `Content-Type: application/json`

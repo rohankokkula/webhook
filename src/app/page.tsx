@@ -99,7 +99,7 @@ export default function Home() {
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                <span className="text-gray-600 dark:text-gray-400">URL: <code className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded">http://localhost:3001/api/webhook</code></span>
+                <span className="text-gray-600 dark:text-gray-400">URL: <code className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded">https://webhook.eu-contentstackapps.com/api/webhook</code></span>
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
@@ -222,7 +222,7 @@ export default function Home() {
             </Link>
             
             <button 
-              onClick={() => window.open('http://localhost:3001/api/webhook', '_blank')}
+              onClick={() => window.open('https://webhook.eu-contentstackapps.com/api/webhook', '_blank')}
               className="flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-colors"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -233,7 +233,7 @@ export default function Home() {
             </button>
             
             <button 
-              onClick={() => window.open('http://localhost:3001', '_blank')}
+              onClick={() => window.open('https://webhook.eu-contentstackapps.com', '_blank')}
               className="flex items-center justify-center px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg transition-colors"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -250,7 +250,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="text-center text-gray-500 dark:text-gray-400">
             <p>Built with Next.js, TypeScript, and Tailwind CSS</p>
-            <p className="text-sm mt-1">Webhook endpoint running on port 3001</p>
+            <p className="text-sm mt-1">Webhook endpoint running on webhook.eu-contentstackapps.com</p>
           </div>
         </div>
       </footer>

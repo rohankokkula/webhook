@@ -166,11 +166,11 @@ export const useWebhookListener = () => {
         'accept': '*/*',
         'accept-encoding': 'gzip, deflate, br',
         'connection': 'keep-alive',
-        'host': 'localhost:3001',
+        'host': 'webhook.eu-contentstackapps.com',
         'x-forwarded-for': '::1',
-        'x-forwarded-host': 'localhost:3001',
-        'x-forwarded-port': '3001',
-        'x-forwarded-proto': 'http'
+        'x-forwarded-host': 'webhook.eu-contentstackapps.com',
+        'x-forwarded-port': '443',
+        'x-forwarded-proto': 'https'
       },
       body: randomPayload,
       status: 200

@@ -20,10 +20,9 @@
           "raw": "{\n  \"event\": \"user.created\",\n  \"data\": {\n    \"userId\": \"12345\",\n    \"email\": \"user@example.com\",\n    \"name\": \"John Doe\",\n    \"age\": 30,\n    \"isActive\": true\n  },\n  \"metadata\": {\n    \"source\": \"postman\",\n    \"version\": \"1.0.0\"\n  },\n  \"timestamp\": \"2024-01-01T00:00:00Z\"\n}"
         },
         "url": {
-          "raw": "http://localhost:3001/api/webhook",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3001",
+          "raw": "https://webhook.eu-contentstackapps.com/api/webhook",
+          "protocol": "https",
+          "host": ["webhook", "eu-contentstackapps", "com"],
           "path": ["api", "webhook"]
         },
         "description": "Test the webhook endpoint with a sample user creation event"
@@ -36,10 +35,9 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3001/api/webhook",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3001",
+          "raw": "https://webhook.eu-contentstackapps.com/api/webhook",
+          "protocol": "https",
+          "host": ["webhook", "eu-contentstackapps", "com"],
           "path": ["api", "webhook"]
         },
         "description": "Get information about the webhook endpoint"
@@ -61,10 +59,9 @@
           "raw": "{\n  \"event\": \"order.completed\",\n  \"data\": {\n    \"orderId\": \"ORD-12345\",\n    \"customer\": {\n      \"id\": \"CUST-001\",\n      \"name\": \"Jane Smith\",\n      \"email\": \"jane@example.com\"\n    },\n    \"items\": [\n      {\n        \"productId\": \"PROD-001\",\n        \"name\": \"Laptop\",\n        \"quantity\": 1,\n        \"price\": 999.99\n      },\n      {\n        \"productId\": \"PROD-002\",\n        \"name\": \"Mouse\",\n        \"quantity\": 2,\n        \"price\": 29.99\n      }\n    ],\n    \"total\": 1059.97,\n    \"currency\": \"USD\"\n  },\n  \"metadata\": {\n    \"source\": \"ecommerce-system\",\n    \"version\": \"2.1.0\",\n    \"environment\": \"production\"\n  },\n  \"timestamp\": \"2024-01-01T00:00:00Z\"\n}"
         },
         "url": {
-          "raw": "http://localhost:3001/api/webhook",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3001",
+          "raw": "https://webhook.eu-contentstackapps.com/api/webhook",
+          "protocol": "https",
+          "host": ["webhook", "eu-contentstackapps", "com"],
           "path": ["api", "webhook"]
         },
         "description": "Test with a more complex e-commerce order completion event"
